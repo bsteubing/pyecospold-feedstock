@@ -1,13 +1,13 @@
 {% set name = "pyecospold" %}
-{% set version = "3.5.5" %}
+{% set version = "4.0.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyecospold-{{ version }}.tar.gz
-  sha256: eeb597f4af9853b7a7de7d9e9b5b5ceb0dd56a7ceaaa7f13cfaddaf54167a3bd
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyecospold-{{ version }}.tar.gz
+  sha256: c141a19fa40db766368201b56b6000d7758264b170da0f1ce1ae224ed9f7fe5b
 
 build:
   noarch: python
