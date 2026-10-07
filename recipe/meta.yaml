@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - lxml ==4.9.3
+    - lxml >=4.9.3  # or remove the pin entirely?
     - numpy >=1.23.3
     - python-dateutil
 
